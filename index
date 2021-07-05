@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 768px)" href="tablet.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 425px)" href="mobile.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="section-1"
+    >
+    <div><i class="fas fa-paper-plane"></i> Henderson Bowe PO Box 65212, Ranoa
+    </div>
+    <div class="block-1">
+        <div><a href="#">official@gmail.com</a></div>
+       <div class="social-btn">
+         <ul>  
+          <a href="#" ><i class="fab fa-facebook"></i></a> 
+           <a href="#" ><i class="fab fa-skype"></i></a>
+           <a href="#" ><i class="fab fa-instagram"></i></a>
+           <a href="#" ><i class="fab fa-google-plus-g"></i></a>
+        </ul>
+       </div>
+
+    </div>
+    </section>
+    <section class="section-2">
+        <!-- <a href="#default" class="logo" ><img src="./pet.png" height="50" width="50">WELCOME HOME </a> -->
+        <div class="logo"><img src="./pet.png" height="50" width="50"><h1> welcome home</h1></div>
+        <div class="ph-adoption">
+            <div class="phone-number"><i class="fas fa-phone"></i>  120 580-5654</div>
+            <div class="adoption"><button type="button"> + contact us</button></div>
+        </div>
+    </section>
+    <nav>
+        <div id="toggle-button">
+            <label for="toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+        <input type="checkbox" id="toggle">
+        <ul>
+            <li><a href="#"><i class="fas fa-home">HOME</i></a></li>
+            <li><a href="#"><i class="fa fa-book">WHY YOU SHOULD ADOPT A PET?</i></a></li>
+            <li><a href="#"><i class="fa fa-heart">ADOPT</i></a></li>
+            <li><a href="#"><i class="fa fa-paw">LOST A PET?</i></a></li>
+            <li><a href="#"><i class="fa fa-sign-in">LOG IN</i></a></li>
+            <li><a href="#"><i class="fa fa-address-book ">CONTACT US</i></a></li>
+        </ul>
+
+        </nav>
+
+        </header>
+
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h2>Quick Links</h2>
+                    <a href="#">HOME</a>
+                    <a href="#">ADOPT</a>
+                    <a href="#">LOG IN</a>
+                    <a href="#">CONTACT US</a>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h2>Follow Us</h2>
+                    <a href="#" ><i class="fab fa-facebook">Facebook</i></a> 
+                    <a href="#" ><i class="fab fa-skype">Skype</i></a>
+                    <a href="#" ><i class="fab fa-instagram">Instagram</i></a>
+                    <a href="#" ><i class="fab fa-google-plus-g">Google</i></a>
+                  
+                </div>
+                <div class="footeer-email-form">
+                    <h2>JOIN OUR NEWS LETTER</h2>
+                    <input type="email" placeholder="enter your email adress" id="footer-email">
+                    <input type="submit" value="sign-up" id="footer-email-btn">
+                </div>
+            </div>
+        </div>
+       
+         
+</body>
+</html>
